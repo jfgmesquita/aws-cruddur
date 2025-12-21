@@ -5,7 +5,7 @@
 
 ## Documentation
 
-The `/doc` directory contains:
+The `/project-docs` directory contains:
 
 - [Step 0](project-docs/step0.md) - Billing and Architecture
 
