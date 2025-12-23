@@ -4,9 +4,9 @@
 ![Cruddur Screenshot](assets/cruddur-screenshot.png)
 
 ## Scenario:
-As a Cloud Engineer I have to architect and deploy a production-ready cloud infrastructure on AWS for a micro-blogging application.
+As a Cloud Engineer, my goal is to architect and deploy a production-ready cloud infrastructure on AWS for a micro-blogging application.
 
-Following a successful funding round, the goal is to transform a mock React/Flask application into a scalable, secure, and cost-optimised ecosystem. The project focuses on a "Low-Cost Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
+Following a successful funding round, the goal is to transform a prototype React/Flask application into a scalable, secure, and cost-optimised ecosystem. The project focuses on a "Cost-Effective Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
 
 ## Learning Outcomes
 
@@ -30,7 +30,7 @@ The `/project-docs` directory contains:
 
 - [Step 0](project-docs/step0.md) - Billing and Architecture
 
-- [Step 1](project-docs/step1.md) - App Containerization
+- [Step 1](project-docs/step1.md) - App Containerisation
 
 - [Step 2](project-docs/step2.md) - Distributed Tracing
 
@@ -42,7 +42,7 @@ The `/project-docs` directory contains:
 
 - [Step 6](project-docs/step6.md) - Deploying Containers
 
-- [Step 7](project-docs/step7.md) - Solving CORS with a Load Balancer and Custom Domain
+- [Step 7](project-docs/step7.md) - Resolving CORS with a Load Balancer and Custom Domain
 
 - [Step 8](project-docs/step8.md) - Serverless Image Processing
 
