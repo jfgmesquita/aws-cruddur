@@ -1,0 +1,21 @@
+{
+    "BudgetLimit": {
+        "Amount": "1.0",
+        "Unit": "USD"
+    },
+    "BudgetName": "MyBudget",
+    "BudgetType": "COST",
+    "CostTypes": {
+        "IncludeCredit": true,
+        "IncludeDiscount": true,
+        "IncludeOtherSubscription": true,
+        "IncludeRecurring": true,
+        "IncludeRefund": true,
+        "IncludeSubscription": true,
+        "IncludeSupport": true,
+        "IncludeTax": true,
+        "IncludeUpfront": true,
+        "UseBlended": false
+    },
+    "TimeUnit": "MONTHLY"
+}
