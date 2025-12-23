@@ -6,7 +6,7 @@
 ## Scenario:
 As a Cloud Engineer, my goal is to architect and deploy a production-ready cloud infrastructure on AWS for a micro-blogging application.
 
-Following a successful funding round, the goal is to transform a prototype React/Flask application into a scalable, secure, and cost-optimised ecosystem. The project focuses on a "Cost-Effective Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
+Following a successful funding round, the objective is to transform a prototype React/Flask application into a scalable, secure, and cost-optimised ecosystem. The project focuses on a "Cost-Effective Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
 
 ## Learning Outcomes
 
