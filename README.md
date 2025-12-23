@@ -6,21 +6,21 @@
 ## Scenario:
 As a Cloud Engineer, my goal is to architect and deploy a production-ready cloud infrastructure on AWS for a micro-blogging application.
 
-Following a successful funding round, the objective is to transform a prototype React/Flask application into a scalable, secure, and cost-optimised ecosystem. The project focuses on a "Cost-Effective Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
+Following a successful funding round, the objective is to transform a prototype React/Flask application into a scalable, secure and cost-optimised ecosystem. The project focuses on a "Cost-Effective Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
 
 ## Learning Outcomes
 
-- **Containerisation & Orchestration**: Deploying frontend and backend services using **Docker**, **Amazon ECR**, and **AWS Fargate**.
+- **Containerisation & Orchestration**: Deploying frontend and backend services using **Docker**, **Amazon ECR** and **AWS Fargate**.
 
 - **Database Management**: Data modelling for both **SQL (Amazon RDS)** and **NoSQL (Amazon DynamoDB)**, including **side-caching** with **Momento**.
 
 - **Infrastructure as Code (IaC)**: Provisioning and managing complex cloud resources through **AWS CloudFormation**.
 
-- **CI/CD Automation**: Building automated deployment pipelines using **CodeBuild**, **CodeDeploy**, and **CodePipeline**.
+- **CI/CD Automation**: Building automated deployment pipelines using **CodeBuild**, **CodeDeploy** and **CodePipeline**.
 
 - **Serverless Architecture**: Implementing event-driven background jobs via **AWS Lambda** and abstracting APIs with **GraphQL (AppSync)**.
 
-- **Networking & Security**: Configuring **Route53** hosted zones, **SSL/TLS certificates**, and secure **API gateways**.
+- **Networking & Security**: Configuring **Route53** hosted zones, **SSL/TLS certificates** and secure **API gateways**.
 
 ## Documentation
 
