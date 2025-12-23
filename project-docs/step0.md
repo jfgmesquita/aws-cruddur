@@ -1,6 +1,5 @@
 # Step 0 — Billing and Architecture
 
-
 ## Conceptual Diagram 
 
 This diagram provides a high-level architectural overview of the application. It is designed to ensure all stakeholders, including those in non-technical roles, can understand the system's core structure, focusing on the 'what' and 'why' rather than the 'how' (technical implementation details).
@@ -29,14 +28,15 @@ aws sts get-caller-identity
 
 ## Budgets
 
-As I want to spend the least money possible and try to use the most of the AWS Free Tier services, I created a Cost Budget with two thresholds (alerts): one at $0.01 and another at $0.50.
+As I intend to keep expenditure to a minimum and leverage the AWS Free Tier as much as possible, I have configured a monthly cost budget. This includes two specific alerts: one triggered at $0.01 (to catch any non-free tier usage immediately) and another at $0.50.
 
 Setting the AWS Account ID environment variable for convenience:
 ```
 export AWS_ACCOUNT_ID="<Account ID>"
 ```
 
-Budget:
+#### Budget Definition: 
+```aws/json/budget.json```
 ```
 {
     "BudgetLimit": {
@@ -61,7 +61,8 @@ Budget:
 }
 ```
 
-Budget Alerts:
+#### Budget Alerts:
+```aws/json/budget-notifications-with-subscribers.json```
 ```
 [
     {
@@ -95,7 +96,7 @@ Budget Alerts:
 ]
 ```
 
-Creating the Budget:
+####  Creating the Budget:
 ```
 aws budgets create-budget \
     --account-id $AWS_ACCOUNT_ID \
