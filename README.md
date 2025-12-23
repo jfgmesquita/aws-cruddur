@@ -25,7 +25,7 @@ The `/project-docs` directory contains:
 
 - [Step 8](project-docs/step8.md) - Serverless Image Processing
 
-- [Step 9](project-docs/step9.md) - CI/CD with CodePipeline, CodeBuild and CodeDeployCloudFormation
+- [Step 9](project-docs/step9.md) - CI/CD with CodePipeline, CodeBuild and CodeDeploy
 
 - [Step 10](project-docs/step10.md) - CloudFormation Part 1
 
