@@ -1,0 +1,30 @@
+[
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 1,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "email@cruddur.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    },
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 50,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+                      {
+                "Address": "email@cruddur.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    }
+]
