@@ -12,7 +12,7 @@ Following a successful funding round, the goal is to transform a mock React/Flas
 
 - **Containerisation & Orchestration**: Deploying frontend and backend services using **Docker**, **Amazon ECR**, and **AWS Fargate**.
 
-- **Database Management**: Data modelling for both SQL (**Amazon RDS**) and NoSQL (**Amazon DynamoDB**), including side-caching with **Momento**.
+- **Database Management**: Data modelling for both **SQL (Amazon RDS)** and **NoSQL (Amazon DynamoDB)**, including **side-caching** with **Momento**.
 
 - **Infrastructure as Code (IaC)**: Provisioning and managing complex cloud resources through **AWS CloudFormation**.
 
