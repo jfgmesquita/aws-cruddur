@@ -3,7 +3,28 @@
 ![Cruddur Graphic](assets/cruddur-banner.jpg)
 ![Cruddur Screenshot](assets/cruddur-screenshot.png)
 
+## Scenario:
+As a Cloud Engineer I have to architect and deploy a production-ready cloud infrastructure on AWS for a micro-blogging application.
+
+Following a successful funding round, the goal is to transform a mock React/Flask application into a scalable, secure, and cost-optimised ecosystem. The project focuses on a "Low-Cost Ops" strategy, leveraging modern cloud-native services and automation to ensure the platform is market-ready while maintaining a minimal financial footprint.
+
+## Learning Outcomes
+
+- **Containerisation & Orchestration**: Deploying frontend and backend services using **Docker**, **Amazon ECR**, and **AWS Fargate**.
+
+- **Database Management**: Data modelling for both SQL (**Amazon RDS**) and NoSQL (**Amazon DynamoDB**), including side-caching with **Momento**.
+
+- **Infrastructure as Code (IaC)**: Provisioning and managing complex cloud resources through **AWS CloudFormation**.
+
+- **CI/CD Automation**: Building automated deployment pipelines using **CodeBuild**, **CodeDeploy**, and **CodePipeline**.
+
+- **Serverless Architecture**: Implementing event-driven background jobs via **AWS Lambda** and abstracting APIs with **GraphQL (AppSync)**.
+
+- **Networking & Security**: Configuring **Route53** hosted zones, **SSL/TLS certificates**, and secure **API gateways**.
+
 ## Documentation
+
+This section documents my end-to-end journey through the AWS ecosystem, covering everything from initial cost management to advanced cloud architecture and deployment.
 
 The `/project-docs` directory contains:
 
@@ -34,4 +55,4 @@ The `/project-docs` directory contains:
 - [Step 12](project-docs/step12.md) -
 Modern APIs
 
-##
+#
