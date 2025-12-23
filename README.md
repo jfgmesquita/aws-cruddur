@@ -54,5 +54,3 @@ The `/project-docs` directory contains:
 
 - [Step 12](project-docs/step12.md) -
 Modern APIs
-
-#
