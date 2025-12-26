@@ -1,1 +1,1 @@
-# Step 8 — Serverless Image Processing
+# Serverless Image Processing

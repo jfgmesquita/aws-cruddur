@@ -1,1 +1,1 @@
-# Step 6 — Deploying Containers
+# Deploying Containers

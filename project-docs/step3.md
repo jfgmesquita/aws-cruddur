@@ -1,1 +1,1 @@
-# Step 3 — Decentralized Authentication
+# Decentralized Authentication

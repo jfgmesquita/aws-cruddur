@@ -1,1 +1,1 @@
-# Step 2 — Distributed Tracing
+# Distributed Tracing

@@ -1,1 +1,1 @@
-# Step 5 — DynamoDB and Serverless Caching
+# DynamoDB and Serverless Caching

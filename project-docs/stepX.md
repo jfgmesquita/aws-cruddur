@@ -1,1 +1,1 @@
-# Step 10 — CloudFormation Part 1
+# CloudFormation Part 1

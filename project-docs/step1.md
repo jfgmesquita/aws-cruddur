@@ -1,1 +1,1 @@
-# Step 1 — App Containerization
+# App Containerization

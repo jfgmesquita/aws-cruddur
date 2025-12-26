@@ -1,4 +1,4 @@
-# Step 0 — Billing and Architecture
+# Billing and Architecture
 
 ## Conceptual Diagram 
 

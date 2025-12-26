@@ -1,1 +1,1 @@
-# Step 11 — CloudFormation Part 2
+# CloudFormation Part 2
