@@ -9,7 +9,7 @@ This diagram provides a high-level architectural overview of the application. It
 
 ## Logical Diagram 
 
-This diagram shows how data flows through the system and how different services interact to power the application.
+This diagram shows how data flows through the system and how different services interact to power the application. It focuses on the technical integration, connectivity and communication  between the managed services and the private infrastructure.
 
 ![Logical Diagram Screenshot](../assets/logical-diagram.png) 
 ###### Made with Lucidchart.
