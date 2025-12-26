@@ -5,7 +5,31 @@
 This diagram provides a high-level architectural overview of the application. It is designed to ensure all stakeholders, including those in non-technical roles, can understand the system's core structure, focusing on the 'what' and 'why' rather than the 'how' (technical implementation details).
 
 ![Conceptual Diagram Screenshot](../assets/conceptual-diagram.png)
-Diagram made with Lucidchart.
+###### Made with Lucidchart.
+
+## Logical Diagram 
+
+This diagram shows how data flows through the system and how different services interact to power the application.
+
+![Logical Diagram Screenshot](../assets/logical-diagram.png) 
+###### Made with Lucidchart.
+
+### Core Workflow
+
+- **User Access**: Users connect via Route 53 (DNS) to an Application Load Balancer, which distributes traffic to the containers.
+
+- **Authentication**: AWS Cognito manages user identity and secure login sessions.
+
+- **Application Layer**: The ECS Cluster runs our Frontend and Backend (REST API) inside a secure private network (VPC).
+
+- **Data Storage**: 
+    - **RDS** handles the main relational data.
+
+    - **DynamoDB** and **AppSync** manage real-time direct messaging.
+
+    - **Momento** provides a fast, serverless cache to speed up queries.
+
+- **Image Processing**: When an avatar is uploaded to **S3**, an **AWS Lambda function** automatically processes the image and notifies the backend via a **Webhook**.
 
 ## AWS CLI
 
